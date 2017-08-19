@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/import/vcs-release/vcsK-2015.09-SP2-7-mx/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/import/vcs-release/vcsK-2015.09-SP2-7-mx/linux/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/import/vcs-release/vcsK-2015.09-SP2-7-mx/linux/lib:/import/vcs-release/vcsK-2015.09-SP2-7-mx/linux/lib/pylib27
+export LD_LIBRARY_PATH
+/import/vcs-release/vcsK-2015.09-SP2-7-mx/linux/bin/vcsfind_create_index.exe  -z  /home/pkchirum/Desktop/praveen_Experiments/randomization/simv.daidir/debug_dump/fsearch/idents_Gc5qID.xml.gz  -o /home/pkchirum/Desktop/praveen_Experiments/randomization/simv.daidir/debug_dump/fsearch/fsearch.db_tmp
+\mv /home/pkchirum/Desktop/praveen_Experiments/randomization/simv.daidir/debug_dump/fsearch/fsearch.db_tmp /home/pkchirum/Desktop/praveen_Experiments/randomization/simv.daidir/debug_dump/fsearch/fsearch.db

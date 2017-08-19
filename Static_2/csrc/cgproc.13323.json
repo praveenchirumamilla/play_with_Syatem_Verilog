@@ -1,0 +1,44 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.3/_13323_archive_1.a",
+            "objects": [
+                [
+                    "PRCdp_d.o",
+                    11332
+                ],
+                [
+                    "amcQwB.o",
+                    33680
+                ]
+            ],
+            "size": 45012
+        }
+    ],
+    "Modules": {
+        "...MASTER...": {},
+        "std": {},
+        "staticTest": {
+            "Compiled": "Yes",
+            "Compiled Times": 4
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mode": 4,
+            "bytes": 4597,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "checksum": 4294967295
+        },
+        "PRCdp_d": {
+            "mode": 4,
+            "bytes": 11332,
+            "mod": "staticTest",
+            "out": "PRCdp_d.o",
+            "checksum": 4294967295,
+            "archive": "archive.3/_13323_archive_1.a"
+        }
+    },
+    "reusePaths": {}
+}

@@ -1,0 +1,21 @@
+verdiWindowResize -win $_Verdi_1 "2" "26" "1366" "643"
+debImport "-cunit" "-usevcs" "-sverilog" "dut.sv" "Assertions_Test.sv"
+verdiWindowWorkMode -win $_Verdi_1 -hardwareDebug
+srcHBSelect "test.dut_a" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -win $_nTrace1
+srcGotoLine -win $_nTrace1 13 -setActive
+wvCreateWindow
+wvResizeWindow -win $_nWave2 0 33 1366 647
+wvResizeWindow -win $_nWave2 336 163 924 71
+wvResizeWindow -win $_nWave2 336 163 967 513
+verdiWindowResize -win $_Verdi_1 -2 "33" "1366" "647"
+verdiWindowResize -win $_Verdi_1 -45 "147" "1362" "643"
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -win $_nTrace1
+srcSelect -win $_nTrace1 -range {1 13 5 2 16 3} -backward
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -win $_nTrace1
+srcGotoLine -win $_nTrace1 13 -setActive
+srcDeselectAll -win $_nTrace1
+debExit

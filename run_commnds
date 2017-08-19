@@ -1,0 +1,5 @@
+# compilation
+vcs -sverilog <filename>
+
+# run simulation
+./simv

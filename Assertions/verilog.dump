@@ -1,0 +1,55 @@
+$date
+	Sat Jul 15 09:08:18 2017
+$end
+
+$version
+	Synopsys VCS version K-2015.09-SP2-7
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 bd1c1cb340a5d015 $end
+
+
+$scope module test $end
+$var reg 1 ! clk $end
+$var reg 1 " req $end
+$var reg 1 # rst $end
+$var wire 1 $ ack $end
+
+$scope module dut_a $end
+$var wire 1 ! clk $end
+$var wire 1 # rst $end
+$var wire 1 " req $end
+$var reg 1 $ ack $end
+$var reg 2 % count [1:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+x$
+0"
+1#
+bxx %
+$end
+#5
+1!
+b00 %
+0$
+#10
+0!
+#15
+1!
+0#
+#20
+0!
+#25
+1!
+1"

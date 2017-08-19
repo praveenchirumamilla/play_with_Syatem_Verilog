@@ -1,0 +1,14 @@
+module test;
+
+  initial begin
+    semaphore sem;
+    sem = new();
+
+    if(!sem.try_get(2)) begin
+      $display("Failed to get 2 keys");
+    end
+    sem.put(3);
+    sem.get(2);
+  end
+
+endmodule

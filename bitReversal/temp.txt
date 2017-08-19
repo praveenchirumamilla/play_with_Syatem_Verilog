@@ -1,0 +1,9 @@
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP2-7; Runtime version K-2015.09-SP2-7;  Jul 24 15:15 2017
+Original Data : 11011110101011011011111010101111
+Reversed Data: 1111010101111101101101010111101100000000000000000000000000000000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Mon Jul 24 15:15:22 2017

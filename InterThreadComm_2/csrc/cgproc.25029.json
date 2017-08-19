@@ -1,0 +1,29 @@
+{
+    "CompUnits": {
+        "amcQw_d": {
+            "out": "objs/amcQw_d.o",
+            "mod": "...MASTER...",
+            "bytes": 4589,
+            "mode": 4,
+            "checksum": 4294967295
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "std": {},
+        "test": {}
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.4/_25029_archive_1.a",
+            "objects": [
+                [
+                    "amcQwB.o",
+                    33132
+                ]
+            ],
+            "size": 33132
+        }
+    ]
+}

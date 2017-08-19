@@ -1,0 +1,153 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09-SP2-7)
+Command arguments:
+    +define+verilog
+    -cunit
+    -usevcs
+    +define+VCS
+    -sverilog
+    dut.sv
+    Assertions_Test.sv
+    verilog.dump
+
+
+*Warning* symbol ack duplicated
+"dut.sv", 2: 
+
+*Error* Syntax error at $date
+"verilog.dump", 1: 
+
+*Error* Syntax error at Jul
+"verilog.dump", 2: 
+
+*Error* Syntax error at $end
+"verilog.dump", 3: 
+
+*Error* Syntax error at $version
+"verilog.dump", 5: 
+
+*Error* Syntax error at VCS
+"verilog.dump", 6: 
+
+*Error* Syntax error at $end
+"verilog.dump", 7: 
+
+*Error* Syntax error at $timescale
+"verilog.dump", 9: 
+
+*Error* Syntax error at 1s
+"verilog.dump", 10: 
+
+*Error* Syntax error at $end
+"verilog.dump", 11: 
+
+*Error* Syntax error at $comment
+"verilog.dump", 13: 
+
+*Error* Syntax error at $scope
+"verilog.dump", 16: 
+
+*Error* Syntax error at $var
+"verilog.dump", 17: 
+
+*Error* Syntax error at $var
+"verilog.dump", 18: 
+
+*Error* Syntax error at $var
+"verilog.dump", 19: 
+
+*Error* Syntax error at $var
+"verilog.dump", 20: 
+
+*Error* Syntax error at $scope
+"verilog.dump", 22: 
+
+*Error* Syntax error at $var
+"verilog.dump", 23: 
+
+*Error* Syntax error at $var
+"verilog.dump", 24: 
+
+*Error* Syntax error at $var
+"verilog.dump", 25: 
+
+*Error* Syntax error at $var
+"verilog.dump", 26: 
+
+*Error* Syntax error at $var
+"verilog.dump", 27: 
+
+*Error* Syntax error at $upscope
+"verilog.dump", 28: 
+
+*Error* Syntax error at $upscope
+"verilog.dump", 30: 
+
+*Error* Syntax error at $enddefinitions
+"verilog.dump", 32: 
+
+*Error* Syntax error at #
+"verilog.dump", 34: 
+
+*Error* Syntax error at $dumpvars
+"verilog.dump", 35: 
+
+*Error* Syntax error at 0
+"verilog.dump", 36: 
+
+*Error* Syntax error at 0
+"verilog.dump", 38: 
+
+*Error* Syntax error at 1
+"verilog.dump", 39: 
+
+*Error* Syntax error at %
+"verilog.dump", 40: 
+
+*Error* Syntax error at $end
+"verilog.dump", 41: 
+
+*Error* Syntax error at #
+"verilog.dump", 42: 
+
+*Error* Syntax error at 1
+"verilog.dump", 43: 
+
+*Error* Syntax error at %
+"verilog.dump", 44: 
+
+*Error* Syntax error at 0
+"verilog.dump", 45: 
+
+*Error* Syntax error at #
+"verilog.dump", 46: 
+
+*Error* Syntax error at 0
+"verilog.dump", 47: 
+
+*Error* Syntax error at #
+"verilog.dump", 48: 
+
+*Error* Syntax error at 1
+"verilog.dump", 49: 
+
+*Error* Syntax error at 0
+"verilog.dump", 50: 
+
+*Error* Syntax error at #
+"verilog.dump", 51: 
+
+*Error* Syntax error at 0
+"verilog.dump", 52: 
+
+*Error* Syntax error at #
+"verilog.dump", 53: 
+
+*Error* Syntax error at 1
+"verilog.dump", 54: 
+
+*Error* Syntax error at 1
+"verilog.dump", 55: 
+Highest level modules:
+test
+
+Total	45 error(s),   1 warning(s)

@@ -1,0 +1,128 @@
+{
+    "MlibObjs": {},
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/home/pkchirum/Desktop/praveen_Experiments/concurrencyThreads_2",
+        "csrc_abs": "/home/pkchirum/Desktop/praveen_Experiments/concurrencyThreads_2/csrc",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/pkchirum/Desktop/praveen_Experiments/concurrencyThreads_2/simv.daidir",
+        "archive_dir": "archive.12"
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "out": "reYIK_d.o",
+                "bytes": 18470,
+                "mod": "std",
+                "mode": 4,
+                "archive": "archive.12/_prev_archive_1.a",
+                "checksum": 4294967295
+            }
+        },
+        "test": {
+            "x9Hvb_d": {
+                "out": "x9Hvb_d.o",
+                "bytes": 15640,
+                "mod": "test",
+                "mode": 4,
+                "archive": "archive.12/_8823_archive_1.a",
+                "checksum": 4294967295
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "out": "objs/amcQw_d.o",
+                "bytes": 4589,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 4294967295
+            }
+        }
+    },
+    "SIMBData": {
+        "bytes": 34218,
+        "out": "amcQwB.o",
+        "archive": "archive.12/_8823_archive_1.a"
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "CodeGen(%)": 23.403983656792647,
+        "ru_self_cgstart": {
+            "ru_minflt": 11496,
+            "ru_utime_sec": 0.035993999999999998,
+            "ru_stime_sec": 0.030995000000000002,
+            "ru_nvcsw": 210,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 44912,
+            "ru_nivcsw": 46
+        },
+        "ru_self_end": {
+            "ru_minflt": 12914,
+            "ru_utime_sec": 0.046991999999999999,
+            "ru_stime_sec": 0.039993000000000001,
+            "ru_nvcsw": 277,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 49396,
+            "ru_nivcsw": 71
+        },
+        "mop/quad": 1.6368421052631579,
+        "ru_childs_cgstart": {
+            "ru_minflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0
+        },
+        "nQuads": 190,
+        "ru_childs_end": {
+            "ru_minflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0
+        },
+        "mopSpeed": 28277.868703400618,
+        "outputSizePerQuad": 286.0,
+        "nMops": 311,
+        "totalObjSize": 54357,
+        "quadSpeed": 17275.868339698125,
+        "Frontend(%)": 76.596016343207353,
+        "peak_mem_kb": 151148
+    },
+    "CurCompileUdps": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "test"
+    ],
+    "CompileStatus": "Successful",
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.8823.json"
+    ]
+}

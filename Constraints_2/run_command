@@ -1,0 +1,8 @@
+#compilation
+
+  vcs -sverilog Constaint_Array_Test.sv -lca
+
+#simulation
+
+  ./simv
+  

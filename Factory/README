@@ -1,0 +1,11 @@
+# Singleton Class
+  - used to define a global activity
+  - no object of singleton class exists/allowed
+  - contains only static members
+  - static methods cannot be virtual
+
+# Singleton object
+  - one and only one obj exists (created at compile time)
+  - globally accessible at run time
+  - can have static and non-static members
+

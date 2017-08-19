@@ -1,0 +1,128 @@
+{
+    "MlibObjs": {},
+    "CurCompileUdps": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 18262,
+                "mode": 4,
+                "mod": "std",
+                "checksum": 4294967295,
+                "archive": "archive.15/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 4589,
+                "mode": 4,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "checksum": 4294967295
+            }
+        },
+        "test": {
+            "x9Hvb_d": {
+                "bytes": 23099,
+                "mode": 4,
+                "mod": "test",
+                "out": "x9Hvb_d.o",
+                "checksum": 4294967295,
+                "archive": "archive.15/_9973_archive_1.a"
+            }
+        }
+    },
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 36067,
+        "archive": "archive.15/_9973_archive_1.a"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "test"
+    ],
+    "stat": {
+        "mop/quad": 3.0705128205128207,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.060990000000000003,
+            "ru_maxrss_kb": 46804,
+            "ru_stime_sec": 0.043992999999999997,
+            "ru_minflt": 12048,
+            "ru_majflt": 0,
+            "ru_nvcsw": 177,
+            "ru_nivcsw": 47
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "mopSpeed": 41657.607514023563,
+        "nMops": 958,
+        "outputSizePerQuad": 206.0,
+        "nQuads": 312,
+        "totalObjSize": 64507,
+        "ru_self_end": {
+            "ru_utime_sec": 0.083987000000000006,
+            "ru_maxrss_kb": 51448,
+            "ru_stime_sec": 0.053990999999999997,
+            "ru_minflt": 13519,
+            "ru_majflt": 0,
+            "ru_nvcsw": 250,
+            "ru_nivcsw": 77
+        },
+        "CodeGen(%)": 27.381618583828452,
+        "quadSpeed": 13566.986998304124,
+        "Frontend(%)": 72.618381416171545,
+        "peak_mem_kb": 151196
+    },
+    "CompileProcesses": [
+        "cgproc.9973.json"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/home/pkchirum/Desktop/praveen_Experiments/Constraints",
+        "csrc": "csrc",
+        "csrc_abs": "/home/pkchirum/Desktop/praveen_Experiments/Constraints/csrc",
+        "archive_dir": "archive.15",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/pkchirum/Desktop/praveen_Experiments/Constraints/simv.daidir"
+    },
+    "CompileStatus": "Successful"
+}
